@@ -3,8 +3,8 @@ const fs = require("fs");
 const config = require("./config.json");
 
 const { nodes }  = require('./nodes');
-const username = process.env.STEEM_USERNAME;
-const password = process.env.STEEM_POSTING_KEY;
+const username = config.username;
+const password = config.wif;
 const trackedTag = config.trackedTag;
 const trackedAccount = config.trackedAccount;
 
