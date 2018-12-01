@@ -23,3 +23,6 @@
 ## Run
 
 - **pm2 start app.js**
+
+## Informations 
+ - Join me on --> https://discord.gg/CcNs5uP
